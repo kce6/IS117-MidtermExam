@@ -7,7 +7,27 @@
     line-height: 150px;
 }
 
+.grBigContent {
+    width: 581px;
+}
 
+.grBigContentPadding {
+    padding-right: 26px;
+    padding-left: 26px;
+}
+
+.grSmallContent {
+    width: 280px;
+}
+
+.grSmallContentPadding {
+    padding-right: 18px;
+    padding-left: 18px;
+}
+
+.clearFix {
+    clear: both;
+}
 
 
 
