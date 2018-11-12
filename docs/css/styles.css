@@ -1,0 +1,42 @@
+#wrapper {
+    width: 960px;
+}
+
+#topBar {
+    height: 150px;
+    line-height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+.floatLeft {
+    float: left;
+}
+
+.textInline {
+    display: inline;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.textLeft {
+    text-align: left;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.textJustify {
+    text-align: justify;
+}
+
