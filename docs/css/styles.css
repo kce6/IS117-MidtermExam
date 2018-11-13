@@ -2,39 +2,78 @@
     width: 960px;
 }
 
+#
+
 #topBar {
-    height: 150px;
-    line-height: 150px;
+    line-height: 100px;
+}
+
+#mainContent {
+    background: url("../images/4x4-adventure-automobile-1571783.jpg") no-repeat;
+    background-size: cover;
+    height: 565px;
+}
+
+#leftDiv, #rightDiv {
+    width: 480px;
+}
+
+#leftDiv {
+    background-color: black;
+    opacity: .8;
+    background-size: cover;
+}
+
+#leftDiv h1 {
+    top: 115px;
+    left: 50px;
+    color: white;
+}
+
+#leftDiv h2 {
+    top: 130px;
+    left: 325px;
+    color: blue;
+}
+#footer {
+    position: absolute;
+    bottom: 0px;
+    width: 960px;
+    background-color: black;
+    color: white;
+    line-height: 100px;
 }
 
 .grBigContent {
-    width: 581px;
+    width: 545px;
 }
 
 .grBigContentPadding {
-    padding-right: 26px;
-    padding-left: 26px;
+    padding-right: 24px;
+    padding-left: 24px;
 }
 
 .grSmallContent {
-    width: 280px;
+    width: 300px;
 }
 
 .grSmallContentPadding {
-    padding-right: 18px;
-    padding-left: 18px;
+    padding-right: 19px;
+    padding-left: 19px;
 }
 
 .clearFix {
     clear: both;
 }
 
+.borderOutside {
+    border: solid black 1px;
+}
 
-
-
-
-
-
+.marginCenter {
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .floatLeft {
     float: left;
@@ -60,3 +99,18 @@
     text-align: justify;
 }
 
+.sidebarImg {
+    padding-top: 19px;
+}
+
+.height100px {
+    height: 100px;
+}
+
+.height100percent {
+    height: 100%;
+}
+
+.relativePosition {
+    position: relative;
+}
