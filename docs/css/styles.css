@@ -2,8 +2,6 @@
     width: 960px;
 }
 
-#
-
 #topBar {
     line-height: 100px;
 }
@@ -35,6 +33,7 @@
     left: 325px;
     color: blue;
 }
+
 #footer {
     position: absolute;
     bottom: 0px;
@@ -42,6 +41,10 @@
     background-color: black;
     color: white;
     line-height: 100px;
+}
+
+.fontFamily {
+    font-family: "Helvetica", Helvetica-nueue, sans-serif;
 }
 
 .grBigContent {
@@ -114,3 +117,4 @@
 .relativePosition {
     position: relative;
 }
+
