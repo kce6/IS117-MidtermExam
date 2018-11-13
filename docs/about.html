@@ -13,41 +13,61 @@
 </head>
 
 <body>
-    <div id="wrapper">
-        <div id="topBar">
-            <div id="companyLogo" class="floatLeft">
-                <a href="index.html"><img src="images/traventure.png"></a>
-            </div>
-            <div id="menu" class="textInline floatLeft textRight">
-                <ul>
-                    <li class="textInline"><a href="index.html">Home</a></li>
-                    <li class="textInline"><a href="about.html">About</a></li>
-                </ul>
-            </div>
+<div id="wrapper">
+    <div id="topBar">
+        <div id="companyLogo" class="floatLeft grSmallContent">
+            <a href="index.html"><img src="images/traventure.png"></a>
         </div>
-        <div id="mainContent">
-            <div id="sidebar">
-                Sidebar
-            </div>
-            <div id="aboutContent">
-                <h1>Heading 1</h1>
-                    <p>About Text</p>
-            </div>
-        </div>
-        <div id="footer">
-            Footer
+        <div id="menu" class="floatLeft textRight grBigContent">
+            <ul>
+                <li class="textInline"><a href="index.html">Home</a></li>
+                <li class="textInline"><a href="about.html">About</a></li>
+            </ul>
         </div>
     </div>
+    <div id="middleDiv" class="floatLeft">
+        <div id="sidebar" class="floatLeft grSmallContent grSmallContentPadding borderOutside">
+            <img src="images/background-boardwalk-clouds-808465.jpg" class="sidebarImg">
+            <h2>Mountains</h2>
+            <p>This is some text for the bottom of the picture. 199x291</p>
+        </div>
+        <div id="aboutContent" class="floatLeft grBigContent grBigContentPadding">
+            <h1>Heading 1</h1>
+            <p class="textJustify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vulputate pulvinar
+                risus fermentum tincidunt.
+                Pellentesque magna est, consequat quis vulputate eget, rhoncus at nisi. Proin quam mauris, pretium sit
+                amet
+                nunc auctor, dignissim tincidunt ex. Ut eu eros libero. Aenean sed lectus faucibus, venenatis mi sed,
+                sollicitudin dolor. Duis aliquet pellentesque feugiat. Integer venenatis sed nibh id tincidunt. Cras
+                tempor
+                egestas augue vitae congue. Aliquam mattis nibh et dui luctus ultricies. Mauris viverra volutpat dui, id
+                malesuada orci blandit sit amet.</p>
 
-
-
-
-
-
-
-
-
-
+            <div id="table" class="borderOutside">
+                <table class="marginCenter">
+                    <tr class="textCenter">
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr>
+                        <td>Jill</td>
+                        <td>Smith</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>Eve</td>
+                        <td>Jackson</td>
+                        <td>94</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="clearFix textCenter">
+        Kenneth &copy; 2018
+    </div>
+</div>
 
 
 <script src="js/scripts.js"></script>
